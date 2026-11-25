@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "package": "no.julian.lightshade.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "RenderSystemMixin",
+    "SodiumRenderMixin",
+    "LevelRendererMixin",
+    "LevelExtractorMixin",
+    "CloudRendererMixin",
+    "WeatherEffectRendererMixin",
+    "MinecraftReloadMixin",
+    "OptionsScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

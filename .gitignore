@@ -1,0 +1,22 @@
+# Build output and release files
+build/
+dist/
+*.jar
+*.zip
+
+# Local dependency copies (see CONTRIBUTING.md)
+libs/
+
+# Python
+__pycache__/
+*.pyc
+
+# Java
+*.class
+
+# OS and editor clutter
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.iml

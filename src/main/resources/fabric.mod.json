@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "lightshade",
+  "version": "0.0.1",
+  "name": "Lightshade Shader Loader",
+  "description": "Vulkan shader loader for Minecraft 26.3 with Fabric and Sodium. Ships two built-in packs: Lightshade Daylight (clean vanilla+) and Lightshade Aurora (cinematic, with northern lights). Pick packs like resource packs with O, Options → Shader Packs... or Sodium's Video Settings.",
+  "authors": ["Julian"],
+  "contact": {
+    "homepage": "https://github.com/bejulian1/lightshade",
+    "sources": "https://github.com/bejulian1/lightshade",
+    "issues": "https://github.com/bejulian1/lightshade/issues"
+  },
+  "icon": "assets/lightshade/icon.png",
+  "environment": "client",
+  "license": "MIT",
+  "entrypoints": {
+    "client": ["no.julian.lightshade.LightshadeClient"],
+    "sodium:config_api_user": ["no.julian.lightshade.integration.SodiumOptions"]
+  },
+  "mixins": ["lightshade.mixins.json"],
+  "depends": {
+    "minecraft": "=26.3",
+    "fabricloader": ">=0.19.5",
+    "java": ">=25",
+    "fabric-api": "*",
+    "sodium": "=0.9.3-beta.1+mc26.3"
+  },
+  "breaks": {
+    "sulkan": "*",
+    "iris": "*"
+  }
+}

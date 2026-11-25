@@ -1,0 +1,36 @@
+name: Feature request
+description: Suggest an improvement to the loader, the menu, the built-in packs or the pack format.
+labels: ["enhancement"]
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Loader / rendering
+        - Menu and settings
+        - Lightshade Daylight
+        - Lightshade Aurora
+        - Pack format (for pack authors)
+        - Tools, build or docs
+        - Translations
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+      description: Describe the situation and why the current behaviour falls short.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+      description: What you would like to happen. Mock-ups or reference screenshots are welcome.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives you considered

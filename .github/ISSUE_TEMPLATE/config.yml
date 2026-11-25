@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security vulnerability
+    url: https://github.com/bejulian1/lightshade/security/advisories/new
+    about: Report security problems privately, not as a public issue.
+  - name: Shader pack authoring guide
+    url: https://github.com/bejulian1/lightshade/blob/main/docs/PACK_FORMAT.md
+    about: The complete lightshade.json and GLSL reference for making your own pack.
